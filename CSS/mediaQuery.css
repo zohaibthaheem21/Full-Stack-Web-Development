@@ -1,0 +1,31 @@
+body {
+    background-color: blue;
+}
+
+/* for mobiles */
+@media (min-width: 319px) and (max-width: 480px) {
+    body {
+        background-color: red;
+    }
+}
+
+/* for ipads and tablets */
+@media (min-width: 481px) and (max-width: 1200px) {
+    body {
+        background-color: green;
+    }
+}
+
+/* for laptops */
+@media (min-width: 1201px) and (max-width: 1600px) {
+    body {
+        background-color: yellow;
+    }
+}
+
+/* for desktops */
+@media (min-width: 1601px) {
+    body {
+        background-color: purple;
+    }
+}
