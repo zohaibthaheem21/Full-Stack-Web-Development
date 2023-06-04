@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    background-color: gold;
+    gap: 10px;
+    padding: 10px;
+}
+
+p {
+    font-weight: 700;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}

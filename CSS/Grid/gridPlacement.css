@@ -1,0 +1,45 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1.5fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 3rem;
+    height: 100vh;
+}
+
+.item {
+    font-size: 5rem;;
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.smiling-face {
+    background-color: blue;
+    grid-column: span 2;
+
+    /* grid-column-start: 1;
+    grid-column-end: 3; */
+}
+
+.person-with-turban {
+    background-color: darkgoldenrod;
+    order: 1;
+    /* grid-column-start: 1;
+    grid-column-end: 3; */
+
+    /* grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3; */
+
+    grid-area: 2/1/3/3;
+}
+
+.watch {
+    background-color: chartreuse;
+    /* grid-row-start: 1;
+    grid-row-end: 3; */
+
+    grid-row: span 2;
+}
