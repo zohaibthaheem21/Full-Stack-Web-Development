@@ -1,0 +1,64 @@
+.container {
+    display: grid;
+    background-color: black;
+    height: 400px;
+    width: 400px;
+    gap: 10px;
+    grid-template-columns: 190px 95px 95px;
+    grid-template-rows: 120px 130px 120px;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.item {
+    background-color: wheat;
+}
+
+.red {
+    background-color: red;
+}
+
+.white1 {
+    grid-column: span 2;
+}
+
+.white2 {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.black {
+    background-color: blue;
+}
+
+@media (max-width: 600px) {
+    .container {
+        display: grid;
+        background-color: black;
+        height: 300px;
+        width: 300px;
+        gap: 7px;
+        grid-template-columns: 130px 75px 75px;
+        grid-template-rows: 95px 90px 95px;
+    }
+
+    body {
+        display: flex;
+        height: 80vh;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+}
