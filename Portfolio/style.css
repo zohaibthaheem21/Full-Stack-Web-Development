@@ -1,0 +1,66 @@
+.background-color {
+    background-color: #152238;
+    color: white;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.hero > div > img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.hero > div >  h2 {
+    font-weight: bold;
+    color: #152238;
+}
+
+.resume > div > div > h2 {
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #152238;
+}
+
+.resume > div > div > .education {
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    color: #152238;
+}
+
+.project > div >  div > div > img {
+    border-radius: 50%;
+}
+
+.project > div >  div > div > .pi {
+    width: 200px;
+    height: 200px;
+}
+
+.project > div >  div > div > h3 {
+    margin-top: 5px;
+}
+
+.project > div >  div > div > p > a {
+    margin-top: 5px;
+}
+
+.project > div >  h2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #152238;
+}
+
+.footer > div > footer > ul > li > a > img {
+    height: 30px;
+}
+
+.footer > div > footer > ul > p {
+    margin-top: 4px;
+}
