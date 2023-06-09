@@ -1,0 +1,63 @@
+// alert keyword:
+
+// alert("Hello");
+// alert("World");
+_____________________________________________________________________________________________
+// window.alert("Hello World");
+_____________________________________________________________________________________________
+// prompt keyword:
+
+// prompt("whay is your name?");
+_____________________________________________________________________________________________
+// Datatypes:
+
+var stringDt = "Zohaib";
+var numberDt = 123;
+var booleanDT = true;
+_____________________________________________________________________________________________
+// variables:
+
+// var myName = "Zohaib";
+//     myName = "Zohaib Ali";
+// alert(myName);
+_____________________________________________________________________________________________
+// var yourName = prompt("what is your name?");
+// alert(yourName);
+_____________________________________________________________________________________________
+// alert("My name is "+myName+" welcome to the course "+yourName);
+_____________________________________________________________________________________________
+// concatenation:
+
+// alert("Hello "+"World");
+_____________________________________________________________________________________________
+// var greeting = "Hello";
+// var name = "Zohaib";
+// alert(greeting+" "+name);
+_____________________________________________________________________________________________
+// length property:
+
+// var name = "Zohaib";
+// name.length;
+_____________________________________________________________________________________________
+// var tweet = prompt("write your tweet:");
+// var tweetCount = tweet.length;
+// alert("You have typed "+tweetCount+ " Characters "+ (80-tweetCount)+ " remaining.");
+_____________________________________________________________________________________________
+// slice() method:
+
+// var tweet = prompt("write your tweet:");
+// var tweetUnder140 = tweet.slice(0,140);
+// alert(tweetUnder140);
+_____________________________________________________________________________________________
+// toUpperCase() and toLowerCase() method:
+
+// var name = "Zohaib";
+// name = name.toUpperCase();
+// name = name.toLowerCase();
+_____________________________________________________________________________________________
+var name = prompt("What is your name?");
+var firstC = name.slice(0,1);
+var FirstU = firstC.toUpperCase();
+var allOther = name.slice(1,name.length);
+var allL = allOther.toLowerCase();
+var fName = alert("Hello "+FirstU+allL);
