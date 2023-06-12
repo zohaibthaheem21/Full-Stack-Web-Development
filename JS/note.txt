@@ -174,11 +174,49 @@ ________________________________________________________________________________
 
 // lifeInWeeks(56);
 _____________________________________________________________________________________________
+// BMI Calculator:
 
+function bmiCalculator(weight,height) {
+    var bmi = weight / Math.pow(height,2);
+    return Math.round(bmi);
+}
+var  bmi = bmiCalculator(65,1.8);
+console.log(bmi);
 _____________________________________________________________________________________________
+// Examples:
 
+// function sum(a,b) {
+//     return a + b;
+// }
+// sum(3,4);
+
+// function minus(a,b) {
+//     return a - b;
+// }
+// minus(3,4);
+
+// function multiply(a,b) {
+//     return a * b;
+// }
+// multiply(3,4);
+
+// function divide(a,b) {
+//     return a / b;
+// }
+// divide(3,4);
+
+// function remainder(a,b) {
+//     return a % b;
+// }
+// remainder(4,3);
 _____________________________________________________________________________________________
+function acceleration(velocity,time) {
+    var a = velocity / time;
+    return a;
+}
 
+var a = acceleration(20,4);
+console.log(a);
 _____________________________________________________________________________________________
 
 _____________________________________________________________________________________________
