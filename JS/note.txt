@@ -218,13 +218,61 @@ function acceleration(velocity,time) {
 var a = acceleration(20,4);
 console.log(a);
 _____________________________________________________________________________________________
+// Math.random() function:
 
+// var n = Math.random();
+// n = n * 6;
+// n = Math.floor(n) + 1;
+// console.log(n);
+
+var n = Math.random();
+n = n * 6;
+
+console.log(n);
 _____________________________________________________________________________________________
+// function getRandomNum(min,max) {
+//     return Math.random() * (max - min) + min;
+// }
 
+// getRandomNum(2,5);
+
+// function getRandomNum(min,max) {
+//     var min = Math.ceil(min);
+//     var max = Math.floor(max);
+//     return Math.floor(Math.random() * (max - min) + min);
+// }
+
+// getRandomNum(2,5);
+// 
+
+// function getRandomNum(min,max) {
+//     return Math.floor(Math.random() * (max - min) + min + 1);
+// }
+
+// getRandomNum(2,5);
 _____________________________________________________________________________________________
+// Love Percentage Calculator:
 
+prompt("give the name of man");
+prompt("give the name of women");
+
+var p = Math.floor(Math.random() * 100 + 1);
+
+alert("Your love percentage is "+p+"%");
 _____________________________________________________________________________________________
+// IF ElSE Statements:
 
+prompt("give the name of man");
+prompt("give the name of women");
+
+var p = Math.floor(Math.random() * 100 + 1);
+
+if (p >= 70) {
+   alert("Your love percentage is "+p+"%"+" You both love each other:"); 
+}
+else {
+    alert("Your love percentage is "+p+"%");
+}
 _____________________________________________________________________________________________
 
 _____________________________________________________________________________________________
