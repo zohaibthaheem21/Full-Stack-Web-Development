@@ -274,19 +274,119 @@ else {
     alert("Your love percentage is "+p+"%");
 }
 _____________________________________________________________________________________________
+// Difference between == and ===:
 
+// var a = 1;
+// var b = "1";
+
+// if (a === b) {
+//    console.log("Yes");
+// } else {
+//    console.log("No");
+// }
+
+// if (a == b) {
+//    console.log("Yes");
+// } else {
+//    console.log("No");
+// }
 _____________________________________________________________________________________________
-
+// console.log(a>b);
+// console.log(a<b);
+// console.log(a>=b);
+// console.log(a<=b);
 _____________________________________________________________________________________________
+// BMI Calculator using IF ELSE Statements and Comparative and Logical Operators:
 
+function bmiCalculator (weight, height) {
+    var bmi = weight / Math.pow(height,2);
+   if (bmi < 18.5) {
+      return "Your BMI is "+bmi+", so you are underweight."
+   }
+
+   if (bmi >= 18.5 && bmi <=24.9) {
+      return "Your BMI is " +bmi+ ", so you have a normal weight."
+   }
+
+   if (bmi > 24.9) {
+      return "Your BMI is "+bmi+", so you are overweight."
+   }
+   
+}
+
+bmiCalculator(5,1.8);
 _____________________________________________________________________________________________
+// Leap Year:
 
+function isLeap(year) {
+   if (year%4 === 0 && year%100 !== 0 || year%400 === 0) {
+      console.log("Leap year.");
+   } else {
+      console.log("Not leap year.")
+   }   
+}
+
+isLeap(2400);
+isLeap(1989);
+
+// OR:
+
+function isLeap(year) {
+   if (year%4 === 0) {
+      if (year%100  === 0) {
+         if (year%400 === 0) {
+            console.log("Leap year.");
+         } else {
+            console.log("Not leap year.");
+         }
+      } else {
+         console.log("Leap year.");
+      }
+   } else {
+      console.log("Not leap year.");
+   }
+}
+
+isLeap(2400);
+ isLeap(1989);
 _____________________________________________________________________________________________
+// arrays:
 
+// var fruitList = ["apple", "banana","mango","orange","water melon"];
+// console.log(fruitList);
+// console.log(fruitList.length)
+// console.log(fruitList[0]);
+// console.log(fruitList[fruitList.length - 1]);
+// fruitList.includes("orange");
 _____________________________________________________________________________________________
-
+// var fruitList = ["apple", "banana","mango","orange","water melon"];
+// var fruitName = prompt("what is the fruit name?");
+// if (fruitList.includes(fruitName)) {
+//    alert("yeah! it is available");
+// } else {
+//    alert("oh! it is not available");
+// }
 _____________________________________________________________________________________________
+// fizzBuzz:
 
+var num = [];
+var count = 1;
+
+function fizzBuzz() {
+  if (count%3 === 0 && count%5 === 0) {
+    num.push("fizzBuzz");
+  } else if (count%3 === 0) {
+    num.push("fizz");
+  } else if (count%5 === 0) {
+    num.push("Buzz");
+  } else {
+    num.push(count)
+  }
+
+  count++;
+  
+  console.log(num);
+}
 _____________________________________________________________________________________________
 
 _____________________________________________________________________________________________
