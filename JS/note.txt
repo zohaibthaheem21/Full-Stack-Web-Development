@@ -557,11 +557,53 @@ ________________________________________________________________________________
 
 // TwoD_Array(arr);
 _____________________________________________________________________________________________
+// DOM Properties:
 
+// document.firstElementChild
+
+// document.firstElementChild.lastElementChild
+
+// document.firstElementChild.lastElementChild.innerHTML="Zohaib"
+
+// var heading = document.firstElementChild.lastElementChild
 _____________________________________________________________________________________________
+// getElementsByTagName:
 
+document.getElementsByTagName("li");
+HTMLCollection(3) [li.item, li.item, li.item]
+document.getElementsByTagName("li")[2].style.color="yellow";
+'yellow'
+document.getElementsByTagName("li").length;
+3
 _____________________________________________________________________________________________
+// getElementsById:
 
+document.getElementById("title");
+<h1 id=​"title">​Hello​</h1>​
+document.getElementById("title").innerHTML = "Good Bye";
+'Good Bye'
+
+document.getElementById("title");
+<h1 id=​"title">​Hello​</h1>​
+document.getElementById("title").innerHTML = "Good Bye";
+'Good Bye'
+
+document.querySelector("li.item");
+<li class="item">
+            <a href="https://www.google.com/">Google</a>
+        </li>
+
+document.querySelectorAll("li");
+NodeList(3) [li.item, li.item, li.item]
+
+document.querySelectorAll("li")[1].style.color="blue";
+'blue'
+
+document.firstElementChild.lastElementChild.querySelector("li a").style.color="red";
+'red'
+
+ocument.querySelector(".btn").style.backgroundColor="yellow";
+'yellow'
 _____________________________________________________________________________________________
 
 _____________________________________________________________________________________________
