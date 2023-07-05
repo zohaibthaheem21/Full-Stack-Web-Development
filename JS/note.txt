@@ -605,11 +605,43 @@ document.firstElementChild.lastElementChild.querySelector("li a").style.color="r
 ocument.querySelector(".btn").style.backgroundColor="yellow";
 'yellow'
 _____________________________________________________________________________________________
+// Adding style, color and much more using classList.add, remove and toggle:
 
+document.querySelector("h1").classList.add("huge");
+undefined
+document.querySelector("h1").classList.remove("huge");
+undefined
+document.querySelector("h1").classList.toggle("huge");
+true
+document.querySelector("h1").classList.toggle("huge");
+false     
 _____________________________________________________________________________________________
+// innerHTML and textContent:
 
+document.querySelector("h1").textContent;
+'Hello'
+document.querySelector("h1").textContent = "Good Bye";
+'Good Bye'
+document.querySelector("h1").textContent;
+'Good Bye'
+document.querySelector("h1").innerHTML;
+'Good Bye'
+document.querySelector("h1").innerHTML = "<em>Hello</em>";
+'<em>Hello</em>'
+document.querySelector("h1").innerHTML;
+'<em>Hello</em>'
+document.querySelector("h1").textContent;
+'Hello'
 _____________________________________________________________________________________________
+// Manipulate HTML attributes:
 
+document.querySelector("a");
+<a href=​"https:​/​/​www.google.com/​">​Google​</a>​
+document.querySelector("a").attributes;
+NamedNodeMap {0: href, href: href, length: 1}
+document.querySelector("a").getAttribute("href");
+'https://www.google.com/'
+document.querySelector("a").setAttribute("href","https://www.bing.com");
 _____________________________________________________________________________________________
 
 _____________________________________________________________________________________________
