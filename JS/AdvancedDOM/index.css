@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+    background-color: gray;
+}
+
+h1 {
+    font-size: 5rem;
+    font-family: 'Arvo', serif;
+    color: black;
+    text-shadow: 3px 0 white;
+}
+
+footer {
+    color: black;
+    font-weight: bolder;
+    font-family: 'Arvo', serif;
+}
+
+.set {
+    margin: 10% auto;
+}
+
+.drum {
+    outline: none;
+    border: 10px solid darkgrey;
+    font-size: 5rem;
+    font-family: 'Arvo', serif;
+    line-height: 2;
+    font-weight: 900;
+    color: yellow;
+    text-shadow: 3px 0 black;
+    border-radius: 15px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+}

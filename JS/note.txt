@@ -644,9 +644,27 @@ document.querySelector("a").getAttribute("href");
 'https://www.google.com/'
 document.querySelector("a").setAttribute("href","https://www.bing.com");
 _____________________________________________________________________________________________
+// Calculator js Practice:
 
+function add(num1,num2) {
+  return (num1 + num2);
+}
+
+function multiply(num1,num2) {
+  return (num1 * num2);
+}
+
+function calculator(num1,num2,operetor) {
+  return operetor(num1,num2);
+} 
+
+calculator(4,5,add);
+9
+
+calculator(4,5,multiply);
+20
 _____________________________________________________________________________________________
-
+  
 _____________________________________________________________________________________________
 
 _____________________________________________________________________________________________
