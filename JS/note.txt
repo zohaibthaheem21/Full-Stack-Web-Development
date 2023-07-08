@@ -664,11 +664,62 @@ calculator(4,5,add);
 calculator(4,5,multiply);
 20
 _____________________________________________________________________________________________
-  
-_____________________________________________________________________________________________
+// Complete Calculator:
 
-_____________________________________________________________________________________________
+function add(num1,num2) {
+  return (num1 + num2);
+}
 
+function multiply(num1,num2) {
+  return (num1 * num2);
+}
+
+function minus(num1,num2) {
+  return (num1 - num2);
+}
+
+function divide(num1,num2) {
+  return (num1 / num2);
+}
+
+function reminder(num1,num2) {
+  return (num1 % num2);
+}
+
+function calculator(num1,num2,operetor) {
+  return operetor(num1,num2);
+} 
+
+console.log("adding "+calculator(4,5,add));
+
+console.log("multiplying "+calculator(4,5,multiply));
+
+console.log("subtractiong "+calculator(4,5,minus));
+
+console.log("dividing "+calculator(20,5,divide));
+
+console.log("reminder "+calculator(21,5,reminder));
+_____________________________________________________________________________________________
+// Object:
+
+var houseKeeper = {
+    name : "Jony",
+    worked : "Hotel",
+    salary : 210000,
+    experience : 4,
+    workingTime : "4 hours"
+}
+_____________________________________________________________________________________________
+// Constructor with object:
+
+function BellBoy (name, age, experience, languages) {
+    this.name = name;
+    this.age = age;
+    this.experience = experience;
+    this.languages = languages;
+}
+
+var bellBoy1 = new BellBoy("timmy",20,3,["English","German"]);
 _____________________________________________________________________________________________
 
 _____________________________________________________________________________________________
