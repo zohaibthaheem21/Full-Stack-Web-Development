@@ -1,0 +1,51 @@
+body {
+    text-align: center;
+    background-color: purple;
+  }
+
+#title {
+    margin: 5%;
+    color: black;
+    font-size: 3rem;
+}
+
+.container {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+.btn {
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+    display: inline-block;
+    border: 8px solid black;
+    border-radius: 15%;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+}
+
+.game-over {
+    background-color: red;
+    opacity: 0.8;
+}
