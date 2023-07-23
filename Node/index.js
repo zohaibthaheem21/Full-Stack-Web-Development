@@ -1,1 +1,2 @@
-console.log("Hello from the Node world!");
+const thaheem = require("./second");
+console.log("Hello World!",thaheem);
