@@ -1,40 +1,58 @@
 // Q 1:
 
-console.log("Using for loop:")
-const marks = {
-    zohaib: 90,
-    aslam: 97,
-    salman: 89,
-    shahrukh: 78
-}
+let age = 23;
 
-for (let i=0; i<Object.keys(marks).length; i++) {
-    console.log("The marks of "+ Object.keys(marks)[i]+" are "+marks[ Object.keys(marks)[i]]);
+if (age>9 && age<20) {
+    console.log("your age is between 9 and 20.");
+}
+else {
+    console.log("your age is not between 9 and 20.")
 }
 
 // Q 2:
 
-console.log("Using for in loop:")
-for (let key in marks) {
-    console.log("The marks of "+ key +" are "+marks[key]);
+const expr = 'Papayas';
+switch (expr) {
+  case 'Oranges':
+    console.log('Oranges are $0.59 a pound.');
+    break;
+  case 'Mangoes':
+  case 'Papayas':
+    console.log('Mangoes and papayas are $2.79 a pound.');
+    // Expected output: "Mangoes and papayas are $2.79 a pound."
+    break;
+  default:
+    console.log(`Sorry, we are out of ${expr}.`);
 }
+
 
 // Q 3:
 
-// let cn = 21;
-// let i;
-// while(i != cn) {
-//     // i = prompt("Enter a number : ");
-// }
+let num = 8;
 
-// console.log("Yes! you have enterd a correct number.");
+if (num%2==0 && num%3==0) {
+    console.log("Yes it is divisible by 2 and 3.");
+}
+else {
+    console.log("No it is not divisible by 2 and 3.");
+}
 
-// alert("Yes! you have enterd a correct number.");
 
 // Q 4:
 
-const mean = (a,b,c,d,e) => {
-    return (a+b+c+d+e) / 5;
+let nu = 8;
+
+if (nu%2==0 || nu%3==0) {
+    console.log("Yes it is divisible by 2 and 3.");
+}
+else {
+    console.log("No it is not divisible by 2 and 3.");
 }
 
-console.log("The mean is = "+mean(2,3,4,1,5));
+
+// Q 5:
+
+let ag = 25;
+// let ag = 17;
+let a = ag>18? "You can drive.":"You can not drive.";
+console.log(a);

@@ -1,58 +1,36 @@
 // Q 1:
 
-let age = 23;
-
-if (age>9 && age<20) {
-    console.log("your age is between 9 and 20.");
-}
-else {
-    console.log("your age is not between 9 and 20.")
-}
+let str = "Zohaib";
+let num = 21;
+console.log(str + num);
 
 // Q 2:
-
-const expr = 'Papayas';
-switch (expr) {
-  case 'Oranges':
-    console.log('Oranges are $0.59 a pound.');
-    break;
-  case 'Mangoes':
-  case 'Papayas':
-    console.log('Mangoes and papayas are $2.79 a pound.');
-    // Expected output: "Mangoes and papayas are $2.79 a pound."
-    break;
-  default:
-    console.log(`Sorry, we are out of ${expr}.`);
-}
-
+console.log(typeof(str + num));
 
 // Q 3:
 
-let num = 8;
-
-if (num%2==0 && num%3==0) {
-    console.log("Yes it is divisible by 2 and 3.");
-}
-else {
-    console.log("No it is not divisible by 2 and 3.");
+const b = {
+    name:"Zohaib",
+    section:1
 }
 
+// b = "Aslam"; // can't add to const variable
 
 // Q 4:
+// Yes, we can add a new key in any object in js
 
-let nu = 8;
-
-if (nu%2==0 || nu%3==0) {
-    console.log("Yes it is divisible by 2 and 3.");
-}
-else {
-    console.log("No it is not divisible by 2 and 3.");
-}
-
+b['frined'] = "Saeed";
+console.log(b);
 
 // Q 5:
 
-let ag = 25;
-// let ag = 17;
-let a = ag>18? "You can drive.":"You can not drive.";
-console.log(a);
+const dict = {
+    appreciate: "recognize the full worth of.",
+    attitude: "a settled way of thinking or feeling about something.",
+    love: "an intense feeling of deep affection.",
+    friend: "a person with whom one has a bond of mutual affection, typically one exclusive of sexual or family relations.",
+    yakka: "work, especially of a strenuous physical kind."
+}
+
+console.log(dict.love);
+console.log(dict['yakka']);
