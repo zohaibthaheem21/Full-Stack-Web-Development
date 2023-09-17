@@ -24,3 +24,20 @@ const item = {
 }
 
 console.log(item["Zohaib"]);
+
+const bike = {
+    brand: "honda",
+    cc: 125,
+    color: "silver",
+    price: 150000,
+    model: 2023,
+    kahanSy: function () {
+        // here kahanSy is method
+    }
+}
+
+console.log(bike.model);
+
+bike.brand = "cd";
+
+console.log(bike.brand);
