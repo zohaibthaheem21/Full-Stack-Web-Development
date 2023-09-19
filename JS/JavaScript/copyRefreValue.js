@@ -7,10 +7,13 @@ var a = [...arr];
 arr.pop();
 
 var ob = {
-    brand: "AgriClic"
+    brand: "AgriClic",
+    model: 2023
 }
 
 var o = ob;
 var op = {...ob};
 
 o.brand = "AgriClick";
+
+delete ob.model;
