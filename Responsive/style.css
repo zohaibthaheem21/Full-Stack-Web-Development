@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+/* #box {
+    height: 300px;
+    width: 300px;
+    background-color: crimson;
+}
+
+#inner {
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+} */
+
+/* #box {
+    height: 300px;
+    width: 300px;
+    background-color: crimson;
+}
+
+#inner {
+    height: 50%;
+    width: 50%;
+    background-color: blue;
+} */
+
+#box {
+    height: 30vh;
+    width: 30vw;
+    background-color: crimson;
+}
+
+#inner {
+    height: 50%;
+    width: 50%;
+    background-color: blue;
+}
+
+#parent {
+    height: 40%;
+    width: 80%;
+    background-color: #dadada;
+    font-size: 30px;
+}
+
+h1 {
+    /* font-size: 5vmax */
+    /* font-size: 5vmin; */
+
+    font-size: 1em;
+    /* font-size: 1rem; */
+}
+
+h2 {
+    font-size: 2em;
+    /* font-size: 2rem; */
+}
+
+h3 {
+    font-size: 3em;
+    /* font-size: 3rem; */
+}
+
+h4 {
+    font-size: 60px;
+}
