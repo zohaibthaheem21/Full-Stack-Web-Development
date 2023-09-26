@@ -300,3 +300,95 @@ video {
     width: 14%;
     object-fit: cover;
 }
+
+#page3 {
+    height: 100vh;
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#page3>p {
+    font-size: 25px;
+    font-weight: 700;
+    width: 55%;
+    line-height: 40px;
+    text-align: center;
+}
+
+#page3 img{
+    position: absolute;
+    height: 60px;
+}
+
+#page3 #colon1 {
+    top: 20%;
+    left: 13%;
+}
+
+#page3 #colon2 {
+    bottom: 20%;
+    right: 15%;
+}
+
+#page4 {
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    position: relative;
+}
+
+.elem {
+    height: 70%;
+    width: 26%;
+    overflow: hidden;
+    border-radius: 20px;
+    position: relative;
+}
+
+.elem h4 {
+    height: 100%;
+    width: 100%;
+    color: #000;
+    font-weight: 900;
+    transition: all ease 0.5s;
+    background-color: #95C11E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    position: absolute;
+    z-index: 10;
+}
+
+.elem img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: all ease 0.5s;
+    scale: 1.1;
+}
+
+.elem:hover h4{
+    color: #fff;
+    background-color: transparent;    
+}
+
+.elem:hover img{
+    scale: 1;  
+}
+
+#page4 h1{
+    font-size: 65px;
+    font-weight: 900;
+    position: absolute;
+    top: -16%;
+    color: #000;
+    -webkit-text-stroke: 2px #fff;
+}
