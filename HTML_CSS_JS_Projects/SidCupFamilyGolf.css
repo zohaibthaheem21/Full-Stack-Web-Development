@@ -392,3 +392,50 @@ video {
     color: #000;
     -webkit-text-stroke: 2px #fff;
 }
+
+#footer {
+    height: 40vh;
+    width: 100%;
+    background: linear-gradient(to left bottom,#119f3a,#ACE022);
+    display: flex;
+    margin-top: 40px;
+}
+
+#footer img { 
+    height: 80px;
+    margin-top: 45px;
+    margin-left: 80px;
+}
+
+#footer h1 {
+    color: black;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+#footer h3 {
+    color: black;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+#footer p {
+    color: black;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#footer #f-div1 { 
+    margin-top: 42px;
+    margin-left: 70px;
+}
+
+#footer #f-div2 { 
+    margin-top: 42px;
+    margin-left: 80px;
+}
+
+#footer #f-div3 { 
+    margin-top: 40px;
+    margin-left: 90px;
+}
