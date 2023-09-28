@@ -1,4 +1,4 @@
-var rect = document.querySelector("#center")
+var rect = document.querySelector("#center");
 
 rect.addEventListener("mousemove",function(dets){
     var rectLocation = rect.getBoundingClientRect();
