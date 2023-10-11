@@ -16,23 +16,23 @@ html, body {
     background-color: black;
 }
 
-.navbar {
-    padding: 40px;
-    height: 40px;
-    width: 1350px;
+.header {
+    height: 100px;
+    width: 100%;
     display: flex;
     align-items: center;
-    /* justify-content: center; */
     background-color: red;
     gap: 350px;
-    
 }
 
-.menu {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.logo {
     font-size: 20px;
-    gap: 40px;
+    padding: 20px;
+    margin-left: 30px;
+    font-weight: 900;
+}
+
+.navbar {
+    font-size: 20px;
 }
 
