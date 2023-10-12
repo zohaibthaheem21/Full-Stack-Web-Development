@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: white;
+    font-family: 'Inter', sans-serif;/
 }
 
 html, body {
@@ -10,29 +10,57 @@ html, body {
     width: 100%;
 }
 
-.container {
-    height: 900px;
-    width: 1350px;
-    background-color: black;
+body {
+    background: #080808;
+    color: #fff;
 }
+
+/* --------------------header section start-------------------- */
 
 .header {
-    height: 100px;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
     width: 100%;
-    display: flex;
-    align-items: center;
-    background-color: red;
-    gap: 350px;
-}
-
-.logo {
-    font-size: 20px;
-    padding: 20px;
-    margin-left: 30px;
-    font-weight: 900;
 }
 
 .navbar {
+    height: 12vh;
+    width: 100%;
+    padding: 20px 15%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-logo {
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.nav-logo span {
+    color: #fbc403;
+}
+
+.nav-menu {
     font-size: 20px;
 }
 
+.nav-menu ul li {
+    display: inline-block;
+    margin: 10px;
+    list-style: none;
+}
+
+.nav-menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-menu ul li a:hover {
+    border-bottom: 2px solid #fbc403;
+    /* color: #fbc403; */
+}
+
+/* --------------------header section start-------------------- */
