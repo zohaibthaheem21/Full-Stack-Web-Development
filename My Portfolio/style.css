@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Inter', sans-serif;/
+    font-family: 'Inter', sans-serif;
 }
 
 html, body {
@@ -16,51 +16,110 @@ body {
 }
 
 /* --------------------header section start-------------------- */
-
 .header {
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    width: 100%;
-}
-
-.navbar {
+    position: fixed;
     height: 12vh;
     width: 100%;
-    padding: 20px 15%;
-    /* background-color: red; */
+    padding: 20px 10%;
+    background-color: #080808;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-bottom: 1px solid #fbc403;
 }
 
 .nav-logo {
     font-size: 25px;
-    font-weight: 900;
+    font-weight: 600;
 }
 
 .nav-logo span {
     color: #fbc403;
-}
-
-.nav-menu {
+} 
+    
+ul li {
     font-size: 20px;
-}
-
-.nav-menu ul li {
+    font-weight: 600;
     display: inline-block;
     margin: 10px;
     list-style: none;
 }
 
-.nav-menu ul li a {
+ul li a {
     text-decoration: none;
     color: white;
 }
 
-.nav-menu ul li a:hover {
+ul li a:hover {
     border-bottom: 2px solid #fbc403;
-    /* color: #fbc403; */
+    color: #fbc403;
+}
+/* --------------------header section end-------------------- */
+
+/* --------------------home section start-------------------- */
+.home {
+    height:100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #fbc403;
 }
 
-/* --------------------header section start-------------------- */
+.home-content {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+}
+
+.home-container span {
+    color: #fbc403;
+}
+
+.home-content h1 {
+    margin: 0;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.home-content span {
+    color: #fbc403;
+}
+
+/* .home-content h1 {
+    text-shadow: 0 0 7px rgba(251,196,3,.5), 0 0 3px rgba(251,196,3,.5);
+} */
+
+.home .image {
+    padding-top: 100px;
+    height: 100vh;
+    width: 50%;
+    /* background-color: yellow; */
+}
+
+.home .image img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+/* --------------------home section end-------------------- */
+
+/* --------------------about section start-------------------- */
+.about{
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+}
+/* --------------------about section end-------------------- */
+
+
+
+
+
+/* responsiveness section start */
+
+/* responsiveness section end */
