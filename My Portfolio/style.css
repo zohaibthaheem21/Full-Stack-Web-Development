@@ -149,10 +149,11 @@ body {
         cursor: pointer;
     }
     .hamburger .line {
-        width: 30px;
-        height: 3px;
+        width: 40px;
+        height: 4px;
         background: #fff;
         margin: 6px 0;
+        border-radius: 5px;
     }
     .nav-bar {
         height: 0;
@@ -161,8 +162,8 @@ body {
         left: 0;
         right: 0;
         width: 100%;
-        background: #080808;
-        transition: 0.2s;
+        background: red;
+        transition: 0.5s;
         overflow: hidden;
     }
     .nav-bar .active {
@@ -174,7 +175,7 @@ body {
         margin: 10px auto 0 auto;
         text-align: center;
         flex-direction: column;
-        transition: 0.2s;
+        transition: 0.5s;
         opacity: 0;
     }
     .nav-bar .active ul {
