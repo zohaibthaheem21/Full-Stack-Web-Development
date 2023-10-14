@@ -14,13 +14,12 @@ body {
     background: #080808;
     color: #fff;
 }
-
 /* --------------------header section start-------------------- */
 .header {
     position: fixed;
     height: 12vh;
     width: 100%;
-    padding: 20px 10%;
+    padding: 20px 100px;
     background-color: #080808;
     display: flex;
     align-items: center;
@@ -30,14 +29,18 @@ body {
 
 .nav-logo {
     font-size: 25px;
-    font-weight: 600;
+    font-weight: bold;
 }
 
 .nav-logo span {
     color: #fbc403;
-} 
+}
+
+.hamburger {
+    display: none;
+}
     
-ul li {
+.nav-bar ul li {
     font-size: 20px;
     font-weight: 600;
     display: inline-block;
@@ -45,14 +48,19 @@ ul li {
     list-style: none;
 }
 
-ul li a {
+.nav-bar li a {
     text-decoration: none;
     color: white;
+    padding: 5px 10px;
+    border-radius: 50px;
+    transition: 0.2s;
 }
 
-ul li a:hover {
-    border-bottom: 2px solid #fbc403;
-    color: #fbc403;
+.nav-bar li a:hover {
+    /* border-bottom: 2px solid #fbc403;
+    color: #fbc403; */
+    background-color: #fbc403;
+    color: #080808;
 }
 /* --------------------header section end-------------------- */
 
@@ -121,5 +129,65 @@ ul li a:hover {
 
 
 /* responsiveness section start */
+
+/* header section start */
+@media only screen and (max-width: 1320px) {
+    .header {
+        padding: 0 70px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .header {
+        padding: 0 40px;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+    .hamburger .line {
+        width: 30px;
+        height: 3px;
+        background: #fff;
+        margin: 6px 0;
+    }
+    .nav-bar {
+        height: 0;
+        position: absolute;
+        top: 12vh;
+        left: 0;
+        right: 0;
+        width: 100%;
+        background: #080808;
+        transition: 0.2s;
+        overflow: hidden;
+    }
+    .nav-bar .active {
+        height: 400px;
+    }
+    .nav-bar ul {
+        display: flex;
+        width: fit-content;
+        margin: 10px auto 0 auto;
+        text-align: center;
+        flex-direction: column;
+        transition: 0.2s;
+        opacity: 0;
+    }
+    .nav-bar .active ul {
+        opacity: 1;
+    }
+    .nav-bar ul li {
+        font-size: 40px;
+        font-weight: 600;
+    }
+    .nav-bar ul li a {
+        margin-bottom: 30px;
+    }
+}
+/* header section end */
 
 /* responsiveness section end */
