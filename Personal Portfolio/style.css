@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background: #080808;
+    color: #fff;
+}
+
+/* ***********************************************************************
+                            header section start
+*********************************************************************** */
+.header {
+    position: fixed;
+    height: 12vh;
+    width: 100%;
+    background-color:#080808;
+    padding: 10px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* --------------------logo styling-------------------- */
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.logo span {
+    color: #fbc403;
+}
+
+/* --------------------nav-barl list styling-------------------- */
+.nav-bar ul li {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: 600;
+    list-style: none;
+}
+
+.nav-bar .nav-link {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 50px;
+    transition: all ease 0.3s;
+}
+
+.nav-bar .nav-link:hover {
+    border-bottom: 2px solid #fbc403;
+    color: #fbc403;
+    /* background-color: #fbc403;
+    color: #080808; */
+}
+
+/* --------------------hamburger styling-------------------- */
+.hamburger {
+    display: none;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+
+.mobile-nav-icon {
+    width: 40px;
+    height: 30px;
+    color: #fbc403;
+}
+
+.mobile-nav-icon[name="close-outline"] {
+    display: none;
+}
+/* ***********************************************************************
+                            header section end
+*********************************************************************** */
+
+
+/* ***********************************************************************
+                            home section start
+*********************************************************************** */
+.home {
+    height:100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #fbc403;
+    /* background-color: blue; */
+}
+
+/* --------------------home content styling-------------------- */
+.home-content {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: green; */
+}
+
+.home-content span {
+    color: #fbc403;
+}
+
+.home-content h1 {
+    margin: 0;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+/* .home-content h1 {
+    text-shadow: 0 0 7px rgba(251,196,3,.5), 0 0 3px rgba(251,196,3,.5);
+} */
+
+/* --------------------home image styling-------------------- */
+.home .image {
+    padding-top: 100px;
+    height: 100vh;
+    width: 50%;
+    /* background-color: yellow; */
+}
+
+.home .image img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+/* ***********************************************************************
+                            home section end
+*********************************************************************** */
+
+
+
+
+
+/* ***********************************************************************
+                            responsiveness section start
+*********************************************************************** */
+@media (max-width: 1200px) {
+    .header {
+        padding: 0 60px;
+    }    
+}
+
+@media (max-width: 1100px) {
+    .header {
+        padding: 0 30px;
+    }
+}
+
+@media (max-width: 980px) {
+    .hamburger {
+        display: block;
+        z-index: 999;
+        border: 3px solid #fbc403;
+        color: #fbc403;
+    }
+
+    .nav-bar {
+        /* display: none; */
+        width: 40%;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: #090909ab;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: 0;
+        overflow: hidden;
+    }
+
+    .nav-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-bar ul li{
+        margin: 35px 0px;
+    }
+
+    .active .nav-bar {
+        opacity: 1;
+        visibility: visible;
+        transition: all 0.3s linear;
+    }
+
+    .active .hamburger .mobile-nav-icon[name="close-outline"] {
+        display: block;
+    }
+
+    .active .hamburger .mobile-nav-icon[name="menu-outline"] {
+        display: none;
+    }
+}
+/* ***********************************************************************
+                            responsiveness section end
+*********************************************************************** */
