@@ -142,6 +142,42 @@ body {
 *********************************************************************** */
 
 
+/* ***********************************************************************
+                            about me section start
+*********************************************************************** */
+.about-me {
+    height: 90vh;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #fbc403;
+}
+
+.bio-section {
+    height: 60vh;
+    width: 80%;
+    background-color: blue;
+    display: flex;
+}
+
+.bio-section .image {
+    height: 100%;
+    width: 30%;
+    background-color: green;
+}
+
+.bio-section .bio-description {
+    height: 100%;
+    width: 70%;
+    background-color: aqua;
+}
+/* ***********************************************************************
+                            about me section end
+*********************************************************************** */
+
+
 
 
 
