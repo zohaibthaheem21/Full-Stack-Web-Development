@@ -160,14 +160,15 @@ body {
     width: 80%;
     background-color: blue;
     display: flex;
+    border-radius: 20px;
 }
 
 .bio-section .image {
     height: 100%;
     width: 30%;
     background-color: green;
+    align-items: center;
 }
-
 .bio-section .bio-description {
     height: 100%;
     width: 70%;
