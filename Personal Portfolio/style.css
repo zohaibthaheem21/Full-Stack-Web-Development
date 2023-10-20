@@ -213,7 +213,7 @@ body {
 }
 
 /* --------------------personal-and-edu section styling-------------------- */
-.personal-and-edu {
+.skills-and-edu {
     margin-top: 120px;
     height: 60vh;
     width: 80%;
@@ -223,56 +223,56 @@ body {
     /* z-index: 99; */
 }
 
-.personal-and-edu .personal {
+.skills-and-edu .skills {
     height: 100%;
     width: 50%;
     padding: 20px;
 }
 
-.personal-and-edu .personal h1 {
+.skills-and-edu .skills h1 {
     font-size: 30px;
     font-weight: bold;
 }
 
-.personal-and-edu .personal h1 span {
+.skills-and-edu .skills h1 span {
     border-bottom: 2px solid #fbc403;
 }
 
-.personal-and-edu .personal ul {
+.skills-and-edu .skills ul {
     margin-top: 30px;
     font-size: 20px;
     list-style: none;
-    line-height: 35px;
+    line-height: 40px;
 }
 
-.personal-and-edu .personal ul span {
+.skills-and-edu .skills ul span {
     color: #fbc403;
     font-weight: bold;
 }
 
-.personal-and-edu .education {
+.skills-and-edu .education {
     height: 100%;
     width: 50%;
     padding: 20px;
 }
 
-.personal-and-edu .education h1 {
+.skills-and-edu .education h1 {
     font-size: 30px;
     font-weight: bold;
 }
 
-.personal-and-edu .education h1 span {
+.skills-and-edu .education h1 span {
     border-bottom: 2px solid #fbc403;
 }
 
-.personal-and-edu .education ul {
+.skills-and-edu .education ul {
     margin-top: 30px;
     font-size: 20px;
     list-style: none;
     line-height: 35px;
 }
 
-.personal-and-edu .education ul span {
+.skills-and-edu .education ul span {
     color: #fbc403;
     font-weight: bold;
 }
